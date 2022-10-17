@@ -2,3 +2,13 @@
 # а программа - определять количество вхождений одной строки в другой. 
 # COUNT или FIND нельзя юзать! говорил же на семинаре.
 
+s = 'Hello,World. I am Violette'
+#t = 'Hello'
+
+count = 0
+
+for i in range(len(s)):
+    if s[i] == 'l':
+        count += 1
+
+print(count)
