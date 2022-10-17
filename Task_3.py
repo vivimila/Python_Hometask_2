@@ -8,7 +8,7 @@ s = 'Hello,World. I am Violette'
 count = 0
 
 for i in range(len(s)):
-    if s[i] == 'l':
+    if s[i] == 'e':
         count += 1
 
 print(count)
