@@ -7,8 +7,9 @@ n = int(input('Введите число: '))
 sum = 0
  
 while n > 0:
-    digit = n % 10
-    sum = sum + digit
-    n = n // 10
+    sum += n % 10
+    n //= 10
+return sum 
  
-print(f'Сумма чисел равна: {sum}')
+print(f'Произведение от 1 до n: {sum}')
+
