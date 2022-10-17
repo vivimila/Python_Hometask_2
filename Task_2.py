@@ -3,13 +3,13 @@
 #- пусть N = 4, тогда [ 1, 2, 6, 24 ] (1, 1*2, 1*2*3, 1*2*3*4)
 
 n = int(input('Введите число: '))
- 
-sum = 0
- 
-while n > 0:
-    sum += n % 10
-    n //= 10
-return sum 
- 
-print(f'Произведение от 1 до n: {sum}')
+
+factorial = 1
+
+for i in range(1, n+1):
+     factorial *= i
+     print(f'{factorial}', end=" ")
+
+
+
 
